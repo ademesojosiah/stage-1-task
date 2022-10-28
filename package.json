@@ -9,9 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "build" :  "echo \"building something\" "
-    
-
+    "build" :  "echo \"building something\" && exit 1 " 
   },
   "repository": {
     "type": "git",
