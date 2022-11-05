@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 
-
+app.use(express.json())
 
 app.get('/',(req,res)=>{
     res.status(200).json({'slackUsername': 'josiah', 'backend': true, 'age': 24, 'bio': `Hi, I'm on my way to becoming word class` })
